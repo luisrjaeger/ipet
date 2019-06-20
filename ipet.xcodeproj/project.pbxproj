@@ -12,16 +12,22 @@
 		A03DB9CC22B3E3AF0065451C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03DB9CA22B3E3AF0065451C /* Main.storyboard */; };
 		A03DB9CE22B3E3B00065451C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03DB9CD22B3E3B00065451C /* Assets.xcassets */; };
 		A03DB9D122B3E3B00065451C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03DB9CF22B3E3B00065451C /* LaunchScreen.storyboard */; };
+		B4269B9330177BEB78D98A08 /* libPods-ipet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13264509CB71FBBEA71F5D81 /* libPods-ipet.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A03DB9C322B3E3AF0065451C /* Outro Bundle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Outro Bundle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13264509CB71FBBEA71F5D81 /* libPods-ipet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ipet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E369C76FBE37CFD640E3260 /* Pods-ipet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipet.debug.xcconfig"; path = "Target Support Files/Pods-ipet/Pods-ipet.debug.xcconfig"; sourceTree = "<group>"; };
+		63409D929DBE9F7961903983 /* Pods-ipet.debug - paula.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipet.debug - paula.xcconfig"; path = "Target Support Files/Pods-ipet/Pods-ipet.debug - paula.xcconfig"; sourceTree = "<group>"; };
+		855808E889F54B5878D3566D /* Pods-ipet.debug - leonardo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipet.debug - leonardo.xcconfig"; path = "Target Support Files/Pods-ipet/Pods-ipet.debug - leonardo.xcconfig"; sourceTree = "<group>"; };
+		A03DB9C322B3E3AF0065451C /* iPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03DB9C622B3E3AF0065451C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03DB9C822B3E3AF0065451C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A03DB9CB22B3E3AF0065451C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A03DB9CD22B3E3B00065451C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A03DB9D022B3E3B00065451C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A03DB9D222B3E3B00065451C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4DE56E1089C66A9360815FA /* Pods-ipet.debug - luís.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ipet.debug - luís.xcconfig"; path = "Target Support Files/Pods-ipet/Pods-ipet.debug - luís.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4269B9330177BEB78D98A08 /* libPods-ipet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7998AB105152A708FA8503CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E369C76FBE37CFD640E3260 /* Pods-ipet.debug.xcconfig */,
+				E4DE56E1089C66A9360815FA /* Pods-ipet.debug - luís.xcconfig */,
+				855808E889F54B5878D3566D /* Pods-ipet.debug - leonardo.xcconfig */,
+				63409D929DBE9F7961903983 /* Pods-ipet.debug - paula.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A03DB9BA22B3E3AF0065451C = {
 			isa = PBXGroup;
 			children = (
 				A03DB9C522B3E3AF0065451C /* ipet */,
 				A03DB9C422B3E3AF0065451C /* Products */,
+				7998AB105152A708FA8503CE /* Pods */,
+				DD6335402817910CF1D5C759 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		A03DB9C422B3E3AF0065451C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A03DB9C322B3E3AF0065451C /* Outro Bundle.app */,
+				A03DB9C322B3E3AF0065451C /* iPet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +84,14 @@
 			path = ipet;
 			sourceTree = "<group>";
 		};
+		DD6335402817910CF1D5C759 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13264509CB71FBBEA71F5D81 /* libPods-ipet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A03DB9D522B3E3B00065451C /* Build configuration list for PBXNativeTarget "ipet" */;
 			buildPhases = (
+				F5FF15DC3FCFAAC1F12D80EA /* [CP] Check Pods Manifest.lock */,
 				A03DB9BF22B3E3AF0065451C /* Sources */,
 				A03DB9C022B3E3AF0065451C /* Frameworks */,
 				A03DB9C122B3E3AF0065451C /* Resources */,
@@ -81,7 +110,7 @@
 			);
 			name = ipet;
 			productName = ipet;
-			productReference = A03DB9C322B3E3AF0065451C /* Outro Bundle.app */;
+			productReference = A03DB9C322B3E3AF0065451C /* iPet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5FF15DC3FCFAAC1F12D80EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ipet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A03DB9BF22B3E3AF0065451C /* Sources */ = {
@@ -225,11 +279,12 @@
 		};
 		A03DB9D622B3E3B00065451C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E369C76FBE37CFD640E3260 /* Pods-ipet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAR3D3UX3S;
+				DEVELOPMENT_TEAM = RW5KK8L549;
 				INFOPLIST_FILE = ipet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -237,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.outrobundle.ipet;
-				PRODUCT_NAME = "Outro Bundle";
+				PRODUCT_NAME = iPet;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,11 +362,12 @@
 		};
 		A03DB9D922B3E6730065451C /* Debug - Luís */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DE56E1089C66A9360815FA /* Pods-ipet.debug - luís.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAR3D3UX3S;
+				DEVELOPMENT_TEAM = RW5KK8L549;
 				INFOPLIST_FILE = ipet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -389,11 +445,12 @@
 		};
 		A03DB9DB22B3E6870065451C /* Debug - Leonardo */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855808E889F54B5878D3566D /* Pods-ipet.debug - leonardo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAR3D3UX3S;
+				DEVELOPMENT_TEAM = RW5KK8L549;
 				INFOPLIST_FILE = ipet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,11 +528,12 @@
 		};
 		A03DB9DD22B3E6940065451C /* Debug - Paula */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63409D929DBE9F7961903983 /* Pods-ipet.debug - paula.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MAR3D3UX3S;
+				DEVELOPMENT_TEAM = RW5KK8L549;
 				INFOPLIST_FILE = ipet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
