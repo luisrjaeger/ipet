@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A03DB9C222B3E3AF0065451C"
-               BuildableName = "Outro Bundle.app"
+               BuildableName = "iPet.app"
                BlueprintName = "ipet"
                ReferencedContainer = "container:ipet.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A03DB9C222B3E3AF0065451C"
-            BuildableName = "Outro Bundle.app"
+            BuildableName = "iPet.app"
             BlueprintName = "ipet"
             ReferencedContainer = "container:ipet.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A03DB9C222B3E3AF0065451C"
-            BuildableName = "Outro Bundle.app"
+            BuildableName = "iPet.app"
             BlueprintName = "ipet"
             ReferencedContainer = "container:ipet.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A03DB9C222B3E3AF0065451C"
-            BuildableName = "Outro Bundle.app"
+            BuildableName = "iPet.app"
             BlueprintName = "ipet"
             ReferencedContainer = "container:ipet.xcodeproj">
          </BuildableReference>
